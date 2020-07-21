@@ -1,0 +1,14 @@
+L = LANG.GetLanguageTableReference("english")
+
+-- GENERAL ROLE LANGUAGE STRINGS
+L[ FBI UNIT.name] = " FBI UNIT"
+L[ FBI UNIT.defaultTeam] = "TEAM  FBI UNITS"
+L["hilite_win_" ..  FBI UNIT.defaultTeam] = "THE FBI WON"
+L["win_" ..  FBI UNIT.defaultTeam] = "The  FBI UNIT has won!"
+L["info_popup_" ..  FBI UNIT.name] = [[Now it's your time to go out there and clear the area
+L["body_found_" ..  FBI UNIT.abbr] = "They were a FBI UNIT!"
+L["search_role_" ..  FBI UNIT.abbr] = "This person was a  FBI UNIT!"
+L["ev_win_" ..  FBI UNIT.defaultTeam] = "The deadly FBI UNIT won the round!"
+L["target_" ..  FBI UNIT.name] = " FBI UNIT"
+L["ttt2_desc_" ..  FBI UNIT.name] = [[The FBI UNIT needs to kill every player to clear the area
+He can access his own ([C]) shop and is able to see every player through the walls (as well as he is able to select the jester from the other players).]]
